@@ -1,12 +1,14 @@
 # docker-compose で Hubot + Slack 構築
 
-## ローカルの Docker 起動
+## 実行手順
 
 ```
 macOS%$ git clone https://github.com/kenzo0107/hubot-slack-on-docker.git
 macOS%$ cd hubot-slack-on-docker
 macOS%$ docker-compose up -d
 ```
+
+## 起動確認
 
 ```
 macOS%$ docker ps
