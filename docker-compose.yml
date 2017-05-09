@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  hubot:
+    build:
+      context: ./hubot
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      - HUBOT_SLACK_TOKEN=${HUBOT_SLACK_TOKEN}
+      - HUBOT_SLACK_TEAM=${HUBOT_SLACK_TEAM}
+      - HUBOT_SLACK_BOTNAME=hubot
+      - HUBOT_JIRA_URL=${HUBOT_JIRA_URL}
