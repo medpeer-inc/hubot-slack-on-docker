@@ -41,6 +41,8 @@ module.exports = (robot) ->
 
       unless handleNameList is null
         for i in handleNameList
-          robot.send(room: convertHandleName(i),
+          userName = convertHandleName(i)
+          userId = robot.adapter.client.rtm.dataStore.getUserByName(userName).id
+          robot.send(room: userId,
             "*#{issue}* _(#{url})_\n@#{body.comment.author.name}'s comment:\n```#{body.comment.body}```")
     res.send 'OK'
