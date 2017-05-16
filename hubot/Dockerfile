@@ -43,8 +43,6 @@ RUN npm install hubot-jira-comment --save
 # INSTALL APP
 RUN yo hubot --owner="$OWNER" --name="$NAME" --description="DESCRIPTION" --defaults
 
-#RUN echo 'PORT=9009' >> /home/hubot/bin/hubot
-
 # STARTING APP AND SERVICES
 RUN echo "sudo /usr/bin/redis-server /etc/redis/redis.conf ; /home/hubot/bin/hubot --adapter slack > /home/hubot/hubot.log 2>&1 &" > /home/hubot/init_app.sh
 RUN chmod +x "$DIRECTORY"/init_app.sh

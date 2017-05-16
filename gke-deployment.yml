@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: deployment-hubot
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: hubot
+    spec:
+      containers:
+      - name: hubot
+        image: gcr.io/hubot-167007/hubot:latest
+        ports:
+        - containerPort: 8080
