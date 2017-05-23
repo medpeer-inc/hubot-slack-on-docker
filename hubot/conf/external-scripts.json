@@ -11,5 +11,6 @@
   "hubot-shipit",
   "hubot-jenkins",
   "hubot-jira-comment",
-  "hubot-keepalive"
+  "hubot-keepalive",
+  "hubot-misawa"
 ]
