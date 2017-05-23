@@ -20,8 +20,8 @@
 		"hubot-victory": "1.5.3",
 		"hubot-jenkins": "1.0.2",
 		"coffee-script": "1.12.5",
-    "hubot-keepalive": "0.0.2",
-    "cron": "1.2.1"
+		"hubot-keepalive": "0.0.2",
+		"cron": "1.2.1"
 	},
 	"engines": {
 		"node": "0.10.x"
