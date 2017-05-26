@@ -40,6 +40,7 @@ ADD ./conf/ "$DIRECTORY"
 RUN npm install generator-hubot
 RUN npm install hubot-jira-comment --save
 RUN npm install hubot-misawa --save
+RUN npm install hubot-cat --save
 
 # INSTALL APP
 RUN yo hubot --owner="$OWNER" --name="$NAME" --description="DESCRIPTION" --defaults
