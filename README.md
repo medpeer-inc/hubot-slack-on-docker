@@ -42,4 +42,4 @@ macOS%$ curl \
 http://104.xxx.x.xxx:8080/hubot/jira-comment-dm
 ```
 
-![Imgur](http://i.imgur.com/8FOYcyI.png)
+![Imgur](http://i.imgur.com/4vAO8cf.png)
