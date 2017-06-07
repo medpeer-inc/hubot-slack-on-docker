@@ -4,8 +4,8 @@ MAINTAINER "Kenzo Tanaka" <kenzo.tanaka0107@gmail.com>
 EXPOSE 6379
 
 ENV DIRECTORY "/home/hubot"
-ENV NAME "medchan"
-ENV OWNER "Medpeer Inc."
+ENV NAME "hubot"
+ENV OWNER "hogehoge Inc."
 ENV DESCRIPTION "Hubot"
 ENV NODE_VERSION "5.0.0"
 
