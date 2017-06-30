@@ -1,5 +1,5 @@
-apiVersion: extensions/v1beta1
-kind: Deployment
+apiVersion: v1
+kind: ReplicationController
 metadata:
   name: deployment-hubot
 spec:
@@ -14,3 +14,4 @@ spec:
         image: gcr.io/hubot-167007/hubot:latest
         ports:
         - containerPort: 8080
+        imagePullPolicy: Always
