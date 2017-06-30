@@ -3,7 +3,7 @@
 ## 実行手順
 
 ```
-macOS%$ git clone https://github.com/kenzo0107/hubot-slack-on-docker.git
+macOS%$ https://github.com/medpeer-inc/hubot-slack-on-docker
 macOS%$ cd hubot-slack-on-docker
 macOS%$ docker-compose up -d
 ```
